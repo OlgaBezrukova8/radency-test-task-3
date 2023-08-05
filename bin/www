@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('../src');
 var debug = require('debug')('radency-test-task-3:server');
 var http = require('http');
 

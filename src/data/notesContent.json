@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "Shopping list",
+    "time": "2023-04-01",
+    "category": "Task",
+    "content": "Tomatoes, bread",
+    "archived": false
+  },
+  {
+    "id": 1,
+    "name": "New feature",
+    "time": "2023-05-22",
+    "category": "Idea",
+    "content": "Tomatoes, bread",
+    "archived": false
+  },
+  {
+    "id": 2,
+    "name": "Theory",
+    "time": "2023-07-26",
+    "category": "Random Thought",
+    "content": "The evolution is is developing faster",
+    "archived": true
+  },
+  {
+    "id": 3,
+    "name": "Shopping list",
+    "time": "2023-04-12",
+    "category": "Task",
+    "content": "Buy products",
+    "archived": false
+  },
+  {
+    "id": 4,
+    "name": "New feature",
+    "time": "2023-06-22",
+    "category": "Idea",
+    "content": "Save the world by 05/29/2023",
+    "archived": true
+  },
+  {
+    "id": 5,
+    "name": "Thought",
+    "time": "2023-07-16",
+    "category": "Random Thought",
+    "content": "I love dogs",
+    "archived": false
+  },
+  {
+    "id": 6,
+    "name": "Thought",
+    "time": "2023-07-06",
+    "category": "Random Thought",
+    "content": "Isn't life wonderful?",
+    "archived": false
+  }
+]
