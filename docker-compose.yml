@@ -10,22 +10,22 @@ services:
     ports:
       - "3000:3000"
     command: ["npm", "start"]
-    # depends_on: # Uncomment after postgreSQL integration
-    #  - postgres-db
+    depends_on:
+      - postgres-db
 
   postgres-db:
     image: postgres:latest
     container_name: postgres-container
     environment:
-      POSTGRES_USER: user_name
+      POSTGRES_USER: olya
       POSTGRES_PASSWORD: pass
-      POSTGRES_DB: db_name
+      POSTGRES_DB: postgre-db-radency
     ports:
       - "5432:5432"
     volumes:
-      - pg-sql-data:/var/lib/postgresql/data # Provide pg-sql-data URL, for now its just a placeholder for testing
+      - database_data:/var/lib/postgresql/data
 
 volumes:
-  pg-sql-data:
+  database_data:
 # To run:
 # docker-compose up
